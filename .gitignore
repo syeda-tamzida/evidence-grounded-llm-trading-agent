@@ -1,0 +1,9 @@
+# secrets
+.env
+alpaca_key*.txt
+# runtime cache (news, prices, SEC files, training data, memory, logs written by the notebook)
+stock_agent_cache/
+# notebook / python clutter
+.ipynb_checkpoints/
+__pycache__/
+*.pyc

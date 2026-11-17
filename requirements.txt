@@ -1,0 +1,16 @@
+# Install PyTorch first, matching your GPU (see https://pytorch.org/get-started/locally/).
+# Tested with an NVIDIA RTX 5070 laptop GPU, which needs a CUDA 12.8+ build:
+#   pip install torch --index-url https://download.pytorch.org/whl/cu128
+transformers
+peft
+datasets
+accelerate
+alpaca-py
+yfinance
+rank_bm25
+requests
+pandas
+numpy
+python-dotenv
+notebook
+ipykernel
